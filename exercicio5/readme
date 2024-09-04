@@ -1,0 +1,17 @@
+5) Escreva um programa que inverta os caracteres de um string.
+
+                                           IMPORTANTE:
+
+a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;
+b) Evite usar funções prontas, como, por exemplo, reverse;
+
+
+                                           Explicação
+
+Inicialização: A variável resultado é inicializada como uma string vazia. É onde armazenaremos o resultado da string invertida.
+
+Loop Reverso: O loop for percorre a string original s de trás para frente, começando pelo último caractere (s.length - 1) até o primeiro caractere (0), decrementando o índice i a cada iteração.
+
+Construção da String: A cada iteração, o caractere atual (s[i]) é adicionado à variável resultado.
+
+Retorno: Após o loop, resultado contém a string invertida, que é retornada pela função.

@@ -1,0 +1,17 @@
+1) Observe o trecho de código abaixo: int INDICE = 13, SOMA = 0, K = 0;
+Enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; }
+Imprimir(SOMA);
+Ao final do processamento, qual será o valor da variável SOMA?
+
+                            Resultado
+
+Definição de Variáveis:
+
+INDICE é o valor até o qual queremos somar (13, neste caso).
+SOMA é a variável que armazena o resultado da soma.
+K é o contador que será incrementado no loop.
+Loop while:
+
+O loop continua executando enquanto K for menor que INDICE.
+Em cada iteração, K é incrementado por 1 (K = K + 1).
+O valor de K é adicionado à variável SOMA (SOMA = SOMA + K).

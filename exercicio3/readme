@@ -1,0 +1,39 @@
+3) Dado um vetor que guarda o valor de faturamento diário de uma distribuidora, faça um programa, na linguagem que desejar, que calcule e retorne:
+• O menor valor de faturamento ocorrido em um dia do mês;
+• O maior valor de faturamento ocorrido em um dia do mês;
+• Número de dias no mês em que o valor de faturamento diário foi superior à média mensal.
+
+IMPORTANTE:
+a) Usar o json ou xml disponível como fonte dos dados do faturamento mensal;
+b) Podem existir dias sem faturamento, como nos finais de semana e feriados. Estes dias devem ser ignorados no cálculo da média;
+
+
+                                Explicação dos Códigos
+JSON:
+
+Fetch API: Usa fetch() para carregar o arquivo JSON.
+Método json(): Converte a resposta para um objeto JavaScript.
+Processamento: Calcula o menor, maior valor, a média e conta os dias acima da média, exibindo os resultados.
+
+Dados Fornecidos:
+
+O vetor faturamento representa os valores de faturamento diário.
+Inicialização:
+
+menor e maior são inicializados com valores extremos para garantir que qualquer valor no vetor atualize esses valores.
+soma armazena a soma dos valores de faturamento.
+diasContados conta o número de dias com faturamento para calcular a média.
+Loop para Menor, Maior e Soma:
+
+Itera sobre cada valor no vetor faturamento.
+Atualiza o menor e maior valores conforme necessário.
+Soma os valores positivos e conta o número de dias com faturamento.
+Cálculo da Média:
+
+A média é calculada dividindo a soma pelo número de dias contados.
+Contagem de Dias Acima da Média:
+
+Um segundo loop conta quantos dias têm faturamento acima da média.
+Exibição dos Resultados:
+
+Os resultados são exibidos no elemento com o id resultado
